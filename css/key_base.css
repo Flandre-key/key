@@ -1,0 +1,47 @@
+/*
+* @Author: 未来人类
+* @Date:   2017-02-25 19:01:14
+* @Last Modified by:   未来人类
+* @Last Modified time: 2017-02-25 20:09:40
+*/
+ body,p,ul,li,dl,ol,dt,dd,h1,h2,h3,h4,h5,h6{
+ 	margin: 0;
+ 	padding: 0;
+ 	list-style: none;
+ 	font-size: 12px;
+ 	font-family: 微软雅黑;
+ 	color: black;
+
+
+ }
+
+ a{
+ 	text-decoration: none;
+ 	color: black;
+ }
+ a:hover{
+	 color: #ff4a00;
+ }
+ input,img{
+ 	margin: 0;
+ 	padding: 0;
+ 	vertical-align:bottom;
+ 	outline-style: none;
+ 	border: 0;
+ }
+ .clearfix:after{
+ 	height: 0;
+ 	line-height: 0;
+ 	content:"";
+ 	clear: both;
+ 	display: block;
+ 	visibility: hidden;
+ }
+ .clearfix{
+ 	zoom:1;
+ }
+
+ .w{
+ 	width: 1226px;
+ 	margin: 0 auto;
+ }

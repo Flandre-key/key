@@ -1,0 +1,115 @@
+.site-topbar{
+    height: 362px;
+
+
+}
+
+
+.container .topbar-nav{
+    height: 40px;
+    background-color:#333333 ;
+
+}
+.container .topbar-nav .title{
+    line-height: 40px;
+}
+.container .topbar-nav .title a{
+    margin-right: 8px;
+    color: #B0B0B0;
+}
+.container .topbar-nav .title a:hover{
+    color: #FF6700;
+}
+.container .topbar-nav .title span{
+    margin-right: 8px;
+}
+.container .topbar-nav .title .left_title{
+    float: left;
+}
+.container .topbar-nav .title .right_title{
+    float: right;
+}
+.container .topbar-nav .title .right_title .topbar-info{
+    float: left;
+}
+.container .topbar-nav .title .right_title .gwc{
+    float: left;
+    width: 121px;
+    background-color: #424242;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container .zhong{
+    height: 222px;
+}
+.container .zhong img{
+    position: relative;
+    z-index: -1;
+    margin-left: 491px;
+    margin-top: 28px;
+}
+
+.container .xia{
+    height: 100px;
+
+}
+.container .xia .w .logo{
+    float: left;
+}
+.container .xia .w .logo img{
+    margin-top: 22px;
+}
+.container .xia .w .logo .i1{
+    margin-right: 20px;
+}
+
+.container .xia .w .nav li{
+    float: left;
+    margin-top: 42px;
+    margin-left: 23px;
+    font-size: 16px;
+
+}
+.container .xia .w .nav li a{
+    color: #000;
+}
+.container .xia .w .nav li a:hover{
+   color:  #FF6700;
+}
+.container .xia .w .sousuo .text{
+
+    float: right;
+    width: 262px;
+    height: 48px;
+    border: 1px #FF6700 solid;
+    margin-top: 28px;
+
+}
+.container .xia .w .sousuo .text input{
+    text-indent: 10px;
+    width: 211px;
+    height: 48px;
+    position: relative;
+    z-index: 1;
+    float: left;
+}
+.container .xia .w .sousuo .text .btn{
+    width: 50px;
+    height: 48px;
+    border-left: 1px solid #FF6700;
+    float: left;
+    cursor: pointer;
+
+    
+}
+.container .xia .w .sousuo .text .btn:hover{
+    background-color: #FF6700;
+}
+.container .xia .w .sousuo .text .btn i{
+
+ text-align: center;
+    line-height: 48px;
+    font-size: 34px;
+    margin-left: 10px;
+}

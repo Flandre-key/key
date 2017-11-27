@@ -1,0 +1,116 @@
+/*
+* @Author: dhl
+* @Date:   2017-02-25 09:42:50
+* @Last Modified by:   dhl
+* @Last Modified time: 2017-02-25 16:29:17
+*/
+
+/* CSS初始化 */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd,li {
+	  margin: 0;
+	  padding: 0;
+	  list-style: none;
+	  font-size: 12px;
+	  font-family: 微软雅黑;
+	  color: #666;
+	  font-weight: 400;
+}
+
+a {
+	 color: #666;
+	 text-decoration: none;
+}
+
+a:hover {
+	 color: red;
+}
+
+em,i,s,del {
+	 font-style: normal;
+}
+
+input,img {
+	 vertical-align: middle;
+	 border: 0 none;
+	 outline-style: none;
+	 margin: 0;
+	 padding: 0;
+}
+
+
+/* 版心: 有宽定宽度的居中盒子 */
+.w {
+	width: 1226px;
+	margin: 0 auto;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+	 content: "";
+	 height: 0;
+	 line-height: 0;
+	 display: block;
+	 clear: both;
+	 visibility: hidden;
+}
+.clearfix {
+	 zoom: 1;
+}
+.box{
+	background-color: #f5f5f5;
+}
+.ZNYJ{
+	height: 614px;
+}
+.little_nav .box1{
+	margin-top: 78px;
+	margin-bottom: 19px;
+}
+.little_nav .fl{
+    width: 80px;
+	font-size: 19px;
+}
+.little_nav .fr{
+	font-size: 16px;
+	width: 92px;
+	float: right;
+
+}
+div .left{
+	width: 233px;
+	height: 614px;
+	display: block;
+	float:left;
+}
+ul.right{
+	height: 614px;
+}
+ul.right li{
+	width: 220px;
+	height: 220px;
+	display: block;
+	float: left;
+    margin-bottom: 88px;
+	margin-left: 14px;
+}
+ul.right li img{
+	width: 220px;
+	height: 220px;
+}
+ul.right li p.p1{
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+}
+ul.right li p.p2{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 10px;
+}
+ul.right li p.p3{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 18px;
+	color: red;
+}
+

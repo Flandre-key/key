@@ -1,0 +1,141 @@
+/*
+* @Author: lenovo
+* @Date:   2017-03-09 11:43:07
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-03-11 19:28:22
+*/body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #666;
+    font-weight: 400;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+em,i,s,del {
+    font-style: normal;
+}
+
+input,img {
+    vertical-align: middle;
+    border: 0 none;
+    outline-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* 版心: 有宽定宽度的居中盒子 */
+.w {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+.head_banner{
+    height: 35px;
+    background-color: gray;
+}
+.head_banner .w{
+    position: relative;
+}
+.head_banner ul.banner_l li{
+    color: #dddddd;
+    font-size: 8px;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+}
+.head_banner ul.banner_r li{
+    color: #dddddd;
+    font-size: 8px;
+    display: block;
+    float: right;
+    text-align: center;
+    line-height: 35px;
+}
+.head_banner ul li.line{
+    width: 1px;
+    height: 12px;
+    padding: 0;
+    margin: 11px 6px 0 6px;
+    background-color: red;
+}
+.head_nav{
+    background-color: white;
+}
+.head_nav .w{
+    height: 80px;
+    background-color: white;
+    border-bottom: 1px #dddddd solid;
+}
+.head_nav img{
+    width: 80px;
+    float: left;
+}
+.head_nav ul li{
+    float: left;
+    line-height: 80px;
+    padding: 0 9px;
+    text-align: center;
+}
+.head_nav input{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    float: right;
+    border: 1px solid gray;
+}
+.mainnav{
+    height: 40px;
+    background-color: #cccccc;
+}
+.mainnav ul.mainnavl li{
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+.mainnav ul li.line{
+    width: 1px;
+    height: 12px;
+    padding: 0;
+    margin: 11px 6px 0 6px;
+    background-color: red;
+}
+.mainnav ul.mainnavr li{
+    float: right;
+    text-align: center;
+    line-height: 40px;
+}
+.DFB{
+    height: 650px;
+    background-color: pink ;
+}
+.yin{
+    box-shadow: #3a3932;
+}
+
+

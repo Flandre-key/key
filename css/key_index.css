@@ -1,0 +1,65 @@
+body{
+    background: url(../img/home0405.jpg)no-repeat top center;
+}
+.key{
+    padding-top: 14px;
+}
+.key .lb{
+    float: left;
+    height: 170px;
+    width: 234px;
+    background: url(../images/bg001.jpg)no-repeat;
+}
+.key .lb ul li{
+    width: 76px;
+    height:83px;
+    float: left;
+    font-size: 13px;
+    text-align: center;
+
+}
+.key .lb i{
+    display: block;
+}
+.key .lb ul li a{
+    color: #CDCAC8;
+}
+.key .lb .iconfont{
+    font-size: 22px;
+}
+.key .lb ul li a:hover{
+    color: white;
+}
+.key .lb ul{
+
+    padding-top: 25px;
+    margin: 0 3px ;
+}
+
+
+
+
+
+.key .left{
+    height: 170px;
+    width: 316px;
+    margin-left: 14px;
+    float: left;
+}
+.key .middle{
+    height: 170px;
+    width: 316px;
+    margin-left: 14px;
+    float: left;
+}
+.key .right{
+    height: 170px;
+    width: 316px;
+    margin-left: 14px;
+    float: left;
+}
+
+.shadow{
+    box-shadow: 0 2px  20px 2px rgba(0, 0, 0, .5);
+
+}

@@ -1,0 +1,273 @@
+/*
+* @Author: lenovo
+* @Date:   2017-03-09 11:43:07
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-03-11 19:28:22
+*/body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #666;
+    font-weight: 400;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+em,i,s,del {
+    font-style: normal;
+}
+
+input,img {
+    vertical-align: middle;
+    border: 0 none;
+    outline-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* 版心: 有宽定宽度的居中盒子 */
+.w {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+.head_banner{
+    height: 35px;
+    background-color: black;
+}
+.head_banner .w{
+    position: relative;
+}
+.head_banner .w ul li{
+    cursor: pointer;
+}
+.head_banner .w ul li:hover{
+    color:gainsboro;
+}
+.head_banner ul.banner_l li{
+    color: white;
+    font-size: 8px;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 35px;
+}
+.head_banner ul.banner_r li{
+    color: white;
+    font-size: 8px;
+    display: block;
+    float: right;
+    text-align: center;
+    line-height: 35px;
+}
+.head_banner ul li.line{
+    width: 1px;
+    height: 12px;
+    padding: 0;
+    margin: 11px 6px 0 6px;
+    background-color: white;
+}
+.head_nav{
+    background-color: white;
+}
+.head_nav ul li{
+    cursor: pointer;
+}
+.head_nav ul li:hover{
+    color:red;
+}
+.head_nav .w{
+    height: 95px;
+
+}
+.head_nav img{
+    width: 40px;
+    margin-top: 20px;
+    float: left;
+}
+.head_nav .w .JR{
+    height: 40px;
+}
+.head_nav .w .JR p.XM{
+    padding-top: 20px;
+}
+.head_nav p.XM{
+    font-size: 20px;
+    color: black;
+}
+.head_nav p.LC{
+    font-size: 5px;
+}
+.content{
+    width: 100%;
+    height: 450px;
+}
+.content img{
+    width: 100%;
+    height: 450px;
+}
+.head_nav ul li{
+    font-size: 15px;
+    float: right;
+    padding-left: 30px;
+}
+.box{
+    height: 166px;
+}
+.box div.safe{
+    width: 408px;
+    float: left;
+    margin-top: 56px;
+}
+.box div img{
+    float: left;
+}
+.box div p.A{
+    font-size: 19px;
+}
+.box div p.Y{
+    font-size: 19px;
+}
+.box div p.X{
+    font-size: 19px;
+}
+.box div p.Z{
+    padding-top: 12px;
+    font-size: 11px;
+}
+.box div p.D{
+    font-size: 11px;
+    padding-top: 12px;
+}
+.box div p.L{
+    font-size: 11px;
+    padding-top: 12px;
+}
+.box div.product{
+    width: 410px;
+    float: left;
+    margin-top: 56px;
+}
+.box div.mi{
+    width: 408px;
+    float: right;
+    margin-top: 56px;
+}
+.picture{
+    height: 620px;
+}
+.xmjr{
+    height: 1054px;
+    background-color: #FAFAFA;
+}
+.xmjr .XMP{
+    height: 107px;
+    margin-top: 66px;
+}
+
+.xmjr .XMP p{
+    font-size: 25px;
+    text-align: center;
+}
+.xmjr .TB{
+    height: 210px;
+}
+.xmjr .TB img{
+    padding-left: 182px;
+}
+.xmjr .TB img.img1{
+    padding-left: 0;
+}
+.xmjr .SJ{
+    height: 737px;
+}
+.xmjr .SJ .left{
+    width: 433px;
+    height: 737px;
+    float: left;
+    margin-right: 56px;
+}
+.xmjr .SJ .right{
+    width: 719px;
+    float: right;
+    margin: 125px 0;
+
+}
+.xmjr .SJ .right .img01{
+    padding-bottom: 50px;
+}
+.er{
+    height: 487px;
+}
+.er .box1{
+    height: 214px;
+}
+.er .box1 p.yf{
+    font-size: 23px;
+    color: black;
+    text-align: center;
+    margin-top: 58px;
+}
+.er .box1 p.gz{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 28px;
+}
+.er .box2 img{
+    margin-left: 112px;
+    cursor: pointer;
+}
+.box{
+    background-color: whitesmoke;
+}
+.picture .di1{
+    margin-right: 66px;
+    width: 365px;
+    height: 500px;
+    float: left;
+    background: url("../imgs/4.png");
+    margin-top: 62px;
+    cursor: pointer;
+}
+.picture .di2{
+    margin-right: 50px;
+    width: 365px;
+    height: 500px;
+    float: left;
+    background: url("../imgs/5.png");
+    margin-top: 62px;
+    cursor: pointer;
+}
+.picture .di3{
+    width: 365px;
+    height: 500px;
+    float: right;
+    background: url("../imgs/6.png");
+    margin-top: 62px;
+    cursor: pointer;
+}
+
+

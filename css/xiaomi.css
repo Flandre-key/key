@@ -1,0 +1,60 @@
+/*
+* @Author: dhl
+* @Date:   2017-02-25 09:42:50
+* @Last Modified by:   dhl
+* @Last Modified time: 2017-02-25 16:29:17
+*/
+
+/* CSS初始化 */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd,li {
+	  margin: 0;
+	  padding: 0;
+	  list-style: none;
+	  font-size: 12px;
+	  font-family: 微软雅黑;
+	  color: #666;
+	  font-weight: 400;
+}
+
+a {
+	 color: #666;
+	 text-decoration: none;
+}
+
+a:hover {
+	 color: red;
+}
+
+em,i,s,del {
+	 font-style: normal;
+}
+
+input,img {
+	 vertical-align: middle;
+	 border: 0 none;
+	 outline-style: none;
+	 margin: 0;
+	 padding: 0;
+	cursor: pointer;
+}
+
+
+/* 版心: 有宽定宽度的居中盒子 */
+.w {
+	width: 1226px;
+	margin: 0 auto;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+	 content: "";
+	 height: 0;
+	 line-height: 0;
+	 display: block;
+	 clear: both;
+	 visibility: hidden;
+}
+.clearfix {
+	 zoom: 1;
+}
+

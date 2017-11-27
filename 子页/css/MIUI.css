@@ -1,0 +1,166 @@
+
+li{
+    list-style: none;
+}
+.top{
+    height: 49px;
+    background-color: #000;
+}
+.top .text{
+    width: 1240px;
+    height: 49px;
+    margin:0 auto;
+}
+.top .text a{
+    float: left;
+    font: 17px/49px "Î¢ÈíÑÅºÚ";
+    color: #fff;
+    margin-top: -16px;
+}
+.top .text p{
+    float: right;
+    margin-top: -3px;
+
+}
+.top .text p a{
+    font: 12px/49px "Î¢ÈíÑÅºÚ";
+    margin-left: 36px;
+}
+
+
+.lunbo{
+    height: 657px;
+    overflow: hidden;
+
+}
+.lunbo ul{
+    width: 4047px;
+}
+.lunbo ul li{
+    float: left;
+
+}
+/*.lunbo ul li img {*/
+    /*width: 1349px;*/
+    /*height: 657px;*/
+
+/*}*/
+
+
+
+
+
+
+.bottom{
+    height: 477px;
+}
+.bottom .shang{
+    width: 1240px;
+    height: 318px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+.bottom .shang ul.u1{
+    margin-left: 20px;
+}
+.bottom .shang li.li1,.li2,.li3{
+    float: left;
+    margin-top: 130px;
+    width: 372px;
+}
+.bottom .shang .li1{
+    border-right: 1px solid #cccccc;
+    margin-right: 30px;
+}
+.bottom .shang .li2{
+    border-right: 1px solid #cccccc;
+    margin-right: 30px;
+}
+.bottom .shang li img{
+    float: left;
+    margin-top: 28px;
+    margin-right: 24px;
+}
+.bottom .shang li .zi{
+    cursor: pointer;
+}
+
+
+
+.bottom .shang li h3{
+    font-size: 18px;
+    line-height: 28px;
+    color: black;
+}
+.bottom .shang li p{
+    font-size: 14px;
+    color: #cccccc;
+    margin-left: 51px;
+}
+.footer{
+    margin-left: 359px;;
+}
+.footer_links{
+    position: relative;
+}
+
+.footer_links li{
+    float: left;
+    width: 83px;
+    margin-left: 28px;
+    border-right: 1px solid #D9D9D9;
+}
+.footer_links li a{
+    color: #858585;
+
+}
+.copyright{
+    margin-left: 24px;
+    margin-top: 23px;
+    color: #C5C6C8;
+    float: left;
+}
+.footer_links li.language_list{
+    border: 0;
+}
+.ziti ul li{
+    border: 0;
+}
+.ziti {
+    display: block;
+    width: 90px;
+    height: 106px;
+    background-color: #fff;
+    position: absolute;
+    top: -89px;
+    left: 498px;
+    display: none;
+
+}
+.ziti ul{
+    position: absolute;
+    top: 9px;
+    left: -50px;
+}
+.ziti ul li{
+    margin-top: 5px;
+    cursor: pointer;
+}
+.footer_links li a:hover{
+    color: #FF740E;
+}
+.weixin img{
+    width: 147px;
+    height: 147px;
+    position: absolute;
+    top: -148px;
+    left: 138px;
+    display: none;
+
+}
+#jian:hover{
+    color: #858585;
+}
+
+
+

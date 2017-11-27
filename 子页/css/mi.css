@@ -1,0 +1,114 @@
+.box{
+    background-color: #F5F5F5;
+}
+
+
+.box .top{
+    height: 38px;
+
+}
+
+.box .title{
+    height: 80px;
+
+}
+.box .title .text{
+    color: #000;
+}
+
+.box .title .text .fl{
+    font-size: 19px;
+    float: left;
+    margin-top: 40px;
+}
+
+.box .title .text .fr{
+    font-size: 16px;
+    float: right;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+.box .conter{
+    height: 616px;
+
+}
+
+.box .conter .left1{
+    width: 233px;
+    height: 616px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+
+}
+.box .conter .left2{
+    width: 233px;
+    height: 616px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+
+}
+.box .conter .left3{
+    width: 233px;
+    height: 616px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+
+}
+.box .conter .right .sbox{
+    height: 302px;
+    width: 234px;
+    background-color: #fff;
+    float: left;
+    margin-left: 14px;
+}
+.box .conter .right .r_top{
+    height: 302px;
+    margin-bottom: 10px;
+}
+.box .conter .right .sbox .tu{
+    margin-left: 26px;
+    margin-top: 32px;
+}
+.box .conter .right .sbox p.p1{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+.box .conter .right .sbox p.p2{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.box .conter .right .sbox p.p3{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 18px;
+    color: red;
+}
+.yin{
+    box-shadow:0px 2px 15px 2px rgba(0,0,0,0.2);
+}
+.box .conter  .aa{
+    width: 233px;
+    height: 616px;
+    background: url("../imgs/1.jpg");
+}
+.guang{
+    width: 233px;
+    height: 150px;
+    background-color: orange;
+    position: absolute;
+    top: 616px;
+
+}
